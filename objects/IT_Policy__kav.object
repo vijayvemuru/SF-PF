@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Concierge_Article__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Concierge Article</label>
+        <referenceTo>Concierge_Case_Configuration__c</referenceTo>
+        <relationshipLabel>IT - Policies</relationshipLabel>
+        <relationshipName>IT_Policies</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>
